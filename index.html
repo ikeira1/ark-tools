@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أدوات ARK | Keira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <!-- شريط الحسابات العلوي المطور -->
+    <div class="account-bar">
+        <div class="account-container">
+            <div class="account-card youtube">
+                <a href="https://www.youtube.com/@ikeira1/featured" target="_blank">
+                    <div class="account-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="account-text">
+                        <span class="account-title">قناة اليوتيوب</span>
+                        <span class="account-desc">شروحات وتجارب ARK 🎮</span>
+                    </div>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+            
+            <!-- باقي عناصر الهيدر -->
+        </div>
+    </div>
+    
+    <!-- أزرار تبديل الوضع -->
+    <div class="theme-switcher">
+        <button class="theme-btn" onclick="setTheme('light')">
+            <i class="fas fa-sun"></i> الوضع العادي
+        </button>
+        <button class="theme-btn" onclick="setTheme('dark')">
+            <i class="fas fa-moon"></i> الوضع الليلي
+        </button>
+    </div>
+    
+    <!-- المحتوى الرئيسي -->
+    <div class="main-content">
+        <h1><i class="fas fa-tools"></i> أدوات ARK للمحترفين</h1>
+        
+        <div class="motivation">
+            "🌟 <span class="highlight">مرحبًا بك في عالم ARK!</span> استخدم هذه الأدوات..."
+        </div>
+        
+        <!-- تبويبات الأدوات -->
+        <div class="tabs">
+            <!-- تبويبات الأدوات -->
+        </div>
+        
+        <!-- أدوات المحتوى -->
+        <div class="tool-container">
+            <!-- محتوى الأدوات -->
+        </div>
+        
+        <div class="motivation">
+            "🎉 <span class="highlight">شارك الأدوات مع أصدقائك!</span>..."
+        </div>
+    </div>
+    
+    <!-- عداد الزوار -->
+    <div class="visitor-counter">
+        <h3><i class="fas fa-chart-line"></i> إحصائيات الزوار</h3>
+        <div class="counter-numbers">
+            <div class="counter-item">
+                <div>الزوار اليوم</div>
+                <div id="daily-visitors">0</div>
+            </div>
+            <div class="counter-item">
+                <div>إجمالي الزوار</div>
+                <div id="total-visitors">0</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- زر أداة الستاتس العائم -->
+    <button id="statsToolBtn">
+        <i class="fas fa-chart-line"></i> أداة الستاتس
+    </button>
+    
+    <!-- ملفات JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/tools.js"></script>
+    <script src="js/visitors.js"></script>
+</body>
+</html>
